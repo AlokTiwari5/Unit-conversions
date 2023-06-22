@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #FF5F6D, #FFC371);
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  nav {
+    background-color: #555;
+    padding: 10px;
+  }
+  
+  .topdiv {
+    text-align: center;
+  }
+  
+  .topmenu {
+    background-color: #ddd;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .topmenu:hover {
+    background-color: #bbb;
+  }
+  
+  #all-conversion-sections {
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  section figure {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  section figcaption {
+    font-size: 16px;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 0;
+  }
+  
+  legend {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  
+  aside {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+  }
+  
+  #go-home {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .iconbutton {
+    background-color: #555;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .iconbutton img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
